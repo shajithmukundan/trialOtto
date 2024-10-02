@@ -1,42 +1,14 @@
 
 
 /**
-  * Pre-Defined LED colours
-  */
-enum vColors
-{
-    //% block=red
-    Red = 0xff0000,
-    //% block=orange
-    Orange = 0xffa500,
-    //% block=yellow
-    Yellow = 0xffff00,
-    //% block=green
-    Green = 0x00ff00,
-    //% block=blue
-    Blue = 0x0000ff,
-    //% block=indigo
-    Indigo = 0x4b0082,
-    //% block=violet
-    Violet = 0x8a2be2,
-    //% block=purple
-    Purple = 0xff00ff,
-    //% block=white
-    White = 0xffffff,
-    //% block=black
-    Black = 0x000000
-}
-
-/**
  * Custom blocks
  */
 //% weight=50 color=#e7660b icon="\uf1da"
+
 namespace ServoBit
 {
-    let fireBand: fireled.Band;
-    let _flashing = false;
 
-// Servo PCA9685
+ // Servo PCA9685
     let PCA = 0x6A;	// i2c address of PCA9685 servo controller
     let initI2C = false;
     let _i2cError = 0;
