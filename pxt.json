@@ -10,6 +10,7 @@
     "files": [
         "README.md",
         "servobit.ts"
+        "tsconfig.json"
     ],
     "testFiles": [
         "test.ts"
