@@ -9,11 +9,11 @@
     },
     "files": [
         "README.md",
-        "servobit.ts"
+        "trialotto.ts"
         "tsconfig.json"
     ],
     "testFiles": [
-        "test.ts"
+        "tests.ts"
     ],
     "public": true,
     "yotta": {}
