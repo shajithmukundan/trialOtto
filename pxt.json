@@ -9,8 +9,7 @@
     },
     "files": [
         "README.md",
-        "trialotto.ts"
-        "tsconfig.json"
+        "trialotto.ts"    
     ],
     "testFiles": [
         "tests.ts"
